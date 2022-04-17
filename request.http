@@ -1,0 +1,35 @@
+###
+GET http://localhost:9000/api/blueball HTTP/1.1
+
+###
+GET http://localhost:9000/api/memotest HTTP/1.1
+
+###
+GET http://localhost:9000/api/tateti HTTP/1.1
+
+###
+POST http://localhost:9000/api/blueball HTTP/1.1
+Content-Type: application/json
+
+{
+    "name": "aldana",
+    "time": 75
+}
+
+###
+POST http://localhost:9000/api/memotest HTTP/1.1
+Content-Type: application/json
+
+{
+    "name": "javier",
+    "time": 45
+}
+
+###
+POST http://localhost:9000/api/tateti HTTP/1.1
+Content-Type: application/json
+
+{
+    "name": "pablo",
+    "score": 78
+}
